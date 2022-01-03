@@ -1,0 +1,3 @@
+          const loadedTasks = [];
+          for (const taskKey in data) {
+            loadedTasks.push({ id: taskKey, text: data[taskKey].text });
